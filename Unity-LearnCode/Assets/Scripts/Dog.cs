@@ -14,10 +14,25 @@ pe;
     #endregion
 
     #region 方法
+    /// <summary>
+    /// 狗狗叫的方法。
+    /// </summary>
     public void Bark()
     {
         Debug.Log(name + ":汪汪!!")
     }
+
+    /// <summary>
+    /// 轉換狗狗年齡的方法。
+    /// </summary>
+    /// <returns>狗狗年齡*7</returns>
+    public int ConverAge()
+    {
+        return age * 7;
+    }
+
+
+
     #endregion
 
 }
